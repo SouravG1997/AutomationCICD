@@ -16,6 +16,7 @@ public class Login {
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         driver.get("https://timber.staging.pellets.supply/login");
         driver.manage().window().maximize();
+		
         driver.close();
 	}
 
